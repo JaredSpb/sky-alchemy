@@ -1,0 +1,1464 @@
+.icon::before {
+  content: '';
+  display: block;
+  background: url('/images/icons.png');
+}
+.icon.yellow_mountain_flower::before {
+  background-position: 0px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.worms_head_cap::before {
+  background-position: -30px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.withering_moon::before {
+  background-position: -60px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.wisp_wrappings::before {
+  background-position: -90px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.white_cap::before {
+  background-position: -120px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.wheat::before {
+  background-position: -150px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.void_salts::before {
+  background-position: -180px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.void_essence::before {
+  background-position: -210px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.vampire_dust::before {
+  background-position: -240px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.tundra_cotton::before {
+  background-position: -270px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.troll_fat::before {
+  background-position: -300px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.trama_root::before {
+  background-position: -330px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.torchbug_thorax::before {
+  background-position: -360px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.thorn_hook::before {
+  background-position: -390px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.thistle_branch::before {
+  background-position: -420px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.taproot::before {
+  background-position: -450px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.swamp_fungal_pod::before {
+  background-position: -480px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.steelblue_entoloma::before {
+  background-position: -510px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.spriggan_sap::before {
+  background-position: -540px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.spider_egg::before {
+  background-position: -570px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.spawn_ash::before {
+  background-position: -600px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.spadefish::before {
+  background-position: -630px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.snowberries::before {
+  background-position: -660px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.small_pearl::before {
+  background-position: -690px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.small_antlers::before {
+  background-position: -720px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.sload_soap::before {
+  background-position: -750px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.slaughterfish_scales::before {
+  background-position: -780px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.slaughterfish_egg::before {
+  background-position: -810px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.skeever_tail::before {
+  background-position: -840px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.silverside_perch::before {
+  background-position: -870px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.scrib_jerky::before {
+  background-position: -900px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.scrib_jelly::before {
+  background-position: -930px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.screaming_maw::before {
+  background-position: -960px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.scathecraw::before {
+  background-position: -990px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.scaly_pholiota::before {
+  background-position: -1020px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.salt_pile::before {
+  background-position: -1050px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.salmon_roe::before {
+  background-position: -1080px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.sabre_cat_tooth::before {
+  background-position: -1110px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.rot_scale::before {
+  background-position: -1140px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.roobrush::before {
+  background-position: -1170px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.rock_warbler_egg::before {
+  background-position: -1200px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.river_betty::before {
+  background-position: -1230px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.redwort_flower::before {
+  background-position: -1260px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.red_mountain_flower::before {
+  background-position: -1290px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.red_kelp_gas_bladder::before {
+  background-position: -1320px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.pygmy_sunfish::before {
+  background-position: -1350px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.purple_mountain_flower::before {
+  background-position: -1380px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.purple_butterfly_wing::before {
+  background-position: -1410px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.powdered_mammoth_tusk::before {
+  background-position: -1440px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.poison_bloom::before {
+  background-position: -1470px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.pine_thrush_egg::before {
+  background-position: -1500px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.pearlfish::before {
+  background-position: -1530px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.pearl::before {
+  background-position: -1560px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.orange_dartwing::before {
+  background-position: -1590px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.nordic_barnacle::before {
+  background-position: -1620px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.nirnroot::before {
+  background-position: -1650px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.nightshade::before {
+  background-position: -1680px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.netch_jelly::before {
+  background-position: -1710px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.namiras_rot::before {
+  background-position: -1740px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.mudcrab_chitin::before {
+  background-position: -1770px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.mort_flesh::before {
+  background-position: -1800px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.mora_tapinella::before {
+  background-position: -1830px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.moon_sugar::before {
+  background-position: -1860px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.lyretail_anthias::before {
+  background-position: -1890px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.luna_moth_wing::before {
+  background-position: -1920px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.lichor::before {
+  background-position: -1950px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.lavender::before {
+  background-position: -1980px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.large_antlers::before {
+  background-position: -2010px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.kresh_fiber::before {
+  background-position: -2040px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.kagouti_hide::before {
+  background-position: -2070px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.juvenile_mudcrab::before {
+  background-position: -2100px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.juniper_berries::before {
+  background-position: -2130px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.jazbay_grapes::before {
+  background-position: -2160px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.jarrin_root::before {
+  background-position: -2190px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.imp_stool::before {
+  background-position: -2220px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.imp_gall::before {
+  background-position: -2250px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.ice_wraith_teeth::before {
+  background-position: -2280px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hydnum_azure_giant_spore::before {
+  background-position: -2310px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hunger_tongue::before {
+  background-position: -2340px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.human_heart::before {
+  background-position: -2370px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.human_flesh::before {
+  background-position: -2400px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.honeycomb::before {
+  background-position: -2430px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.histcarp::before {
+  background-position: -2460px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.heart_of_order::before {
+  background-position: -2490px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hawks_egg::before {
+  background-position: -2520px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hawk_feathers::before {
+  background-position: -2550px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hawk_beak::before {
+  background-position: -2580px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hanging_moss::before {
+  background-position: -2610px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hagraven_feathers::before {
+  background-position: -2640px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hagraven_claw::before {
+  background-position: -2670px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.hacklelo_leaf::before {
+  background-position: -2700px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.green_butterfly_wing::before {
+  background-position: -2730px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.grass_pod::before {
+  background-position: -2760px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.goldfish::before {
+  background-position: -2790px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.gold_kanet::before {
+  background-position: -2820px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.glowing_mushroom::before {
+  background-position: -2850px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.glow_dust::before {
+  background-position: -2880px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.gleamblossom::before {
+  background-position: -2910px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.glassfish::before {
+  background-position: -2940px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.giants_toe::before {
+  background-position: -2970px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.giant_lichen::before {
+  background-position: -3000px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.garlic::before {
+  background-position: -3030px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.fungus_stalk::before {
+  background-position: -3060px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.frost_salts::before {
+  background-position: -3090px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.frost_mirriam::before {
+  background-position: -3120px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.fly_amanita::before {
+  background-position: -3150px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.flame_stalk::before {
+  background-position: -3180px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.fire_salts::before {
+  background-position: -3210px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.fire_petal::before {
+  background-position: -3240px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.felsaad_tern_feathers::before {
+  background-position: -3270px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.falmer_ear::before {
+  background-position: -3300px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.eye_of_sabre_cat::before {
+  background-position: -3330px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.emperor_parasol_moss::before {
+  background-position: -3360px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.elytra_ichor::before {
+  background-position: -3390px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.elves_ear::before {
+  background-position: -3420px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.ectoplasm::before {
+  background-position: -3450px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.dwarven_oil::before {
+  background-position: -3480px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.dragons_tongue::before {
+  background-position: -3510px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.deathbell::before {
+  background-position: -3540px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.daedroth_teeth::before {
+  background-position: -3570px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.daedra_venin::before {
+  background-position: -3600px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.daedra_silk::before {
+  background-position: -3630px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.daedra_heart::before {
+  background-position: -3660px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.cyrodilic_spadetail::before {
+  background-position: -3690px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.crimson_nirnroot::before {
+  background-position: -3720px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.creep_cluster::before {
+  background-position: -3750px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.corkbulb_root::before {
+  background-position: -3780px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.congealed_putrescence::before {
+  background-position: -3810px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.comberry::before {
+  background-position: -3840px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.chokeberry::before {
+  background-position: -3870px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.chickens_egg::before {
+  background-position: -3900px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.chaurus_hunter_antennae::before {
+  background-position: -3930px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.chaurus_eggs::before {
+  background-position: -3960px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.charred_skeever_hide::before {
+  background-position: -3990px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.canis_root::before {
+  background-position: -4020px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.butterfly_wing::before {
+  background-position: -4050px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.burnt_spriggan_wood::before {
+  background-position: -4080px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bunglers_bane::before {
+  background-position: -4110px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.briar_heart::before {
+  background-position: -4140px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bone_meal::before {
+  background-position: -4170px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bog_beacon::before {
+  background-position: -4200px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.boar_tusk::before {
+  background-position: -4230px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.blue_mountain_flower::before {
+  background-position: -4260px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.blue_dartwing::before {
+  background-position: -4290px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.blue_butterfly_wing::before {
+  background-position: -4320px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bloodgrass::before {
+  background-position: -4350px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.blisterwort::before {
+  background-position: -4380px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.blister_pod_cap::before {
+  background-position: -4410px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bliss_bug_thorax::before {
+  background-position: -4440px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.blind_watchers_eye::before {
+  background-position: -4470px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bleeding_crown::before {
+  background-position: -4500px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bittergreen_petals::before {
+  background-position: -4530px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.berits_ashes::before {
+  background-position: -4560px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.beehive_husk::before {
+  background-position: -4590px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bee::before {
+  background-position: -4620px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.bear_claws::before {
+  background-position: -4650px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.aster_bloom_core::before {
+  background-position: -4680px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.ashen_grass_pod::before {
+  background-position: -4710px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.ash_hopper_jelly::before {
+  background-position: -4740px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.ash_creep_cluster::before {
+  background-position: -4770px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.angler_larvae::before {
+  background-position: -4800px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.angelfish::before {
+  background-position: -4830px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.ancestor_moth_wing::before {
+  background-position: -4860px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.ambrosia::before {
+  background-position: -4890px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.alocasia_fruit::before {
+  background-position: -4920px 0;
+  width: 30px;
+  height: 30px;
+}
+.icon.abecean_longfin::before {
+  background-position: -4950px 0;
+  width: 30px;
+  height: 30px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+}
+html a {
+  cursor: pointer;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Roboto, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  --header-size: 55px;
+  --active-color: #D6CA89;
+}
+#app.in_progress aside,
+#app.in_progress header .locale_switcher,
+#app.init header .controls,
+#app.in_progress .potions > :not(.progress) {
+  pointer-events: none;
+  opacity: 0.35;
+  filter: blur(1px);
+}
+#app.in_progress .potions > :not(.progress) {
+  filter: blur(3px);
+}
+#app.in_progress header .controls {
+  pointer-events: none;
+}
+#app.in_progress header .controls > div::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 450;
+}
+#app.in_progress header .controls > div::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  border: 6px solid black;
+  border-radius: 100%;
+  border-top-color: white;
+  border-bottom-color: white;
+  animation: rotate 1s linear infinite;
+  z-index: 500;
+}
+#app > header {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 4px double gray;
+  justify-content: space-between;
+  height: var(--header-size);
+  position: relative;
+  z-index: 400;
+}
+#app > header .logo {
+  font-size: 40px;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#app > header .logo span {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  letter-spacing: 8px;
+  margin-top: 2px;
+  opacity: 0.85;
+}
+#app > header .controls {
+  margin-left: auto;
+  margin-right: 10%;
+  position: relative;
+  --slider-handle-bg: black;
+  --slider-handle-shadow: 0 0 0 2px white, 0 0 0 3px black;
+  --slider-handle-width: 12px;
+  --slider-handle-height: 12px;
+  --slider-radius: 0;
+  --slider-bg: white;
+  --slider-connect-bg: black;
+  --slider-handle-ring-width: 0;
+}
+#app > header .controls .slider-base {
+  box-shadow: 0 0 0 1px black inset;
+  margin-top: -1px;
+}
+#app > header .controls .slider-base .slider-handle:active {
+  filter: invert(100%);
+}
+#app > header .controls > a {
+  font-size: 2.8rem;
+}
+#app > header .controls > a.active {
+  color: #D6CA89;
+}
+#app > header .controls > a.active + div {
+  display: grid;
+}
+#app > header .controls > div {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  padding: 1rem;
+  background: white;
+  color: black;
+  grid-template-columns: 50% 50%;
+  gap: 1rem 0.5rem;
+  border: 4px double black;
+}
+#app > header .controls > div > div {
+  display: contents;
+}
+#app > header .controls > div label {
+  cursor: pointer;
+  position: relative;
+}
+#app > header .controls > div label input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+#app > header .controls > div label input + span::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  outline: 1px solid black;
+  border: 3px solid white;
+  background: white;
+  border-radius: 100%;
+}
+#app > header .controls > div label input:checked + span::before {
+  background: black;
+}
+#app > header .controls > div label:hover input + span::before {
+  background: lightgreen;
+}
+#app > header .controls > div label:hover input:checked + span::before {
+  background: pink;
+}
+#app > header .controls > div label span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+#app > header .controls > div label span::before {
+  transition: 200ms;
+}
+#app > header .controls > div input {
+  text-align: center;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  max-width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+#app > header .controls > div input:focus {
+  box-shadow: 0 0 0 1px #D6CA89, 0 0 0 2px black;
+  outline: none;
+}
+#app > header .controls > div label:first-child {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+#app > header .locale_switcher {
+  display: flex;
+  gap: 1.5rem;
+}
+#app > header .locale_switcher > * {
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: white;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  outline: 2px solid transparent;
+}
+#app > header .locale_switcher > *.active {
+  outline: 2px solid var(--active-color);
+}
+#app > header .locale_switcher > *::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+#app > header .locale_switcher > *::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#app > header .locale_switcher .en::after {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAeCAYAAABwmH1PAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TxSItDhYUcchQnSyIitRNq1CECqVWaNXB5NIvaNKQpLg4Cq4FBz8Wqw4uzro6uAqC4AeIq4uToouU+L+k0CLGg+N+vLv3uHsHCI0KU82ucUDVLCOdiIvZ3KrY84oAQhhADDMSM/W5VCoJz/F1Dx9f76I8y/vcnyOk5E0G+ETiWaYbFvEG8fSmpXPeJw6zkqQQnxOPGXRB4keuyy6/cS46LPDMsJFJzxOHicViB8sdzEqGSjxFHFFUjfKFrMsK5y3OaqXGWvfkLwzmtZVlrtMcRgKLWEIKImTUUEYFFqK0aqSYSNN+3MM/5PhT5JLJVQYjxwKqUCE5fvA/+N2tWZiccJOCcaD7xbY/RoCeXaBZt+3vY9tungD+Z+BKa/urDSD2SXq9rUWOgL5t4OK6rcl7wOUOMPikS4bkSH6aQqEAvJ/RN+WA/lugd83trbWP0wcgQ10lb4CDQ2C0SNnrHu8OdPb275lWfz/5t3LdEfCtVwAAAAZiS0dEAAAA/wBAMQfOAgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+cIDgAvF4b1AMIAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAABxklEQVRYw+3YsUtCQRwH8O+9CgqCCprCBIuGGhKncm5ud5BoCTIci/6CIKqxgppCHNprNBpVFESQhKDAV9EUEQUFldcQ76Eoevfudw/L9xv1eff7eLy73/1YeWuH+6IRDPrHURvf1SoKhTL2j86RSFWgEtXbQwBAdiTY9Pu55yIAwJhYU5pnacGP+OoigjOTeEpn8LB3gK/0NQBgaCMKXzQClhme5bUf6IDrBotALRd7vLjkrR5ohJ8hkTI7AiwDtYLl8iUu8wMnK04NdgK18mYsEOMqA4jAqcAUeTIWiHHKAXWAKfOqA+uCOwXrWICmYOoJZcE6X7GWYCr4yfGmEHh5ZVvrXiIMVoX3GIYQ+PP9Q+tpAQCMc87hUrQDuxEGuizs0rJboutW2AN7YA/8x3dp7xz+59Er02WwSstQaNouF614M+9wnzzFy27yd+DwFMbW4xgNz6NvoF9o/NoyVGTc4tWNfGkpc3mQhVoJyV4enM6jfHlQhapeD3XAWzYAqCZUbQBQwpu2eKj/WaoWD0VedU08Xe8OdRNPJU+Wy5e4zk1CZ5vWSd4NhUd7aOc14mXgNpj6vHMD7ATOXism1wV1CywD/wF/Zz+bkOmkRgAAAABJRU5ErkJggg==');
+}
+#app > header .locale_switcher .ru::after {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAAeCAYAAACWsbYLAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TxSItDhYUcchQnSyIitRNq1CECqVWaNXB5NIvaNKQpLg4Cq4FBz8Wqw4uzro6uAqC4AeIq4uToouU+L+k0CLGg+N+vLv3uHsHCI0KU82ucUDVLCOdiIvZ3KrY84oAQhhADDMSM/W5VCoJz/F1Dx9f76I8y/vcnyOk5E0G+ETiWaYbFvEG8fSmpXPeJw6zkqQQnxOPGXRB4keuyy6/cS46LPDMsJFJzxOHicViB8sdzEqGSjxFHFFUjfKFrMsK5y3OaqXGWvfkLwzmtZVlrtMcRgKLWEIKImTUUEYFFqK0aqSYSNN+3MM/5PhT5JLJVQYjxwKqUCE5fvA/+N2tWZiccJOCcaD7xbY/RoCeXaBZt+3vY9tungD+Z+BKa/urDSD2SXq9rUWOgL5t4OK6rcl7wOUOMPikS4bkSH6aQqEAvJ/RN+WA/lugd83trbWP0wcgQ10lb4CDQ2C0SNnrHu8OdPb275lWfz/5t3LdEfCtVwAAAAZiS0dEAAAA/wBAMQfOAgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+cIDgAwO3l3Yr8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAuUlEQVRYw+2Yyw3CMBBEZyxaoIWUQFtcKSmiAOqhCA6cPBxAIhEmhCiOyDIj+eCxtPJbrz8yc84iichK0QEBIOEPZEhDGtKQhjTkRHF/OCk0oQBi1wrqOHi8gNixiukpjI/x2J9AVU/FcuVwkK/rZA17UgMrWRr71F/Kq37wzA2qkYnX+1hpqc0/16pMie970pCG/C1tzpdjbEIBvDZbAYDCfvXwWa7UvYUs1xfugKA+XQ1pSEMasoZujPU6S2iZ/u0AAAAASUVORK5CYII=');
+}
+main {
+  display: flex;
+  flex: 1 0 auto;
+}
+main > * {
+  max-height: calc(100vh - var(--header-size));
+}
+aside {
+  border-right: 4px double gray;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  overflow: hidden;
+}
+aside > * {
+  border-bottom: 1px solid gray;
+}
+aside .dlcs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 0.5rem 1rem;
+}
+aside .dlcs > * {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+aside .dlcs > * input {
+  position: absolute;
+  opacity: 0;
+}
+aside .dlcs > * input + span {
+  border: 1px solid gray;
+  transition: 200ms;
+  display: block;
+  padding: 0.25rem 0.5rem;
+  transition: 300ms;
+  position: relative;
+  border-color: gray;
+}
+aside .dlcs > * input + span::before {
+  content: '';
+  inset: 1px;
+  border: 1px solid transparent;
+  position: absolute;
+  transition: 200ms;
+}
+aside .dlcs > * input + span:hover::before {
+  border-color: gray;
+}
+aside .dlcs > * input:checked + span {
+  background: var(--active-color);
+  border-color: var(--active-color);
+  color: black;
+}
+aside .pane_type {
+  display: flex;
+}
+aside .pane_type > * {
+  flex: 1 0 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 1.3rem;
+  transition: 300ms;
+  position: relative;
+  border-color: gray;
+}
+aside .pane_type > *::before {
+  content: '';
+  inset: 3px;
+  border: 1px solid transparent;
+  position: absolute;
+  transition: 200ms;
+}
+aside .pane_type > *:hover::before {
+  border-color: gray;
+}
+aside .pane_type > *.active {
+  background: var(--active-color);
+  color: black;
+  pointer-events: none;
+}
+aside .setup {
+  flex: 1 0 auto;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 0 0;
+  overflow: hidden;
+}
+aside .setup:not(.active) {
+  display: none;
+}
+aside .setup a {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.85);
+  padding: 2px;
+  font-size: 12px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+aside .setup a:hover {
+  border-color: #888;
+  color: white;
+}
+aside .setup > nav {
+  display: grid;
+  margin-bottom: auto;
+  padding: 0.5rem;
+  flex: 1 0 0;
+  overflow: auto;
+  padding-bottom: 20px;
+  gap: 1px;
+}
+aside .setup > nav a {
+  transition: opacity 200ms;
+  order: 400;
+}
+aside .setup > nav a.active {
+  border-color: rgba(214, 202, 137, 0.5);
+  color: var(--active-color);
+}
+aside .setup > nav a:not(.enabled) {
+  display: none;
+}
+aside .setup > nav a.highlighted {
+  order: 300;
+  opacity: 1;
+}
+aside .setup > nav a:hover.active {
+  color: salmon;
+}
+aside .setup > nav a:hover:not(.active) {
+  color: lightgreen;
+}
+aside .setup > nav.filtered a:not(.highlighted) {
+  opacity: 0.15;
+}
+aside .setup .controls {
+  grid-column: 1 / 5;
+  position: sticky;
+  background: lightblue;
+  bottom: 0;
+  padding: 0.5rem;
+  background: black;
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+}
+aside .setup .controls::before {
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: 20px;
+  position: absolute;
+  background: linear-gradient(to top, black, transparent);
+}
+aside .setup .controls div {
+  margin-right: auto;
+  flex: 1 0 0;
+  display: flex;
+  position: relative;
+}
+aside .setup .controls div input {
+  background: transparent;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  transition: 200ms;
+  flex: 1 0 0;
+}
+aside .setup .controls div input:focus {
+  border: 1px solid white;
+  outline: none;
+}
+aside .setup .controls div .filter_controls {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+aside .setup .controls div input:placeholder-shown ~ .filter_controls a.drop {
+  display: none;
+}
+aside .setup .controls div .filter_controls a {
+  width: 35px;
+  border: none;
+  position: relative;
+}
+aside .setup .controls div .filter_controls a::before {
+  display: none;
+}
+aside .setup .controls div .filter_controls a[data-hint]::after {
+  content: attr(data-hint);
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 5px);
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid darkgray;
+  white-space: pre;
+  font-size: small;
+  opacity: 0;
+  transition: 200ms;
+  pointer-events: none;
+}
+aside .setup .controls div .filter_controls a:hover::after {
+  opacity: 1;
+}
+aside .setup .controls a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid gray;
+  transition: 300ms;
+  position: relative;
+  border-color: gray;
+}
+aside .setup .controls a::before {
+  content: '';
+  inset: 1px;
+  border: 1px solid transparent;
+  position: absolute;
+  transition: 200ms;
+}
+aside .setup .controls a:hover::before {
+  border-color: gray;
+}
+aside .effects nav {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+aside .ingredients nav {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#app.in_progress main .potions:empty::before {
+  display: none;
+}
+main .potions {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 2rem;
+  flex: 1 0 50%;
+  overflow: auto;
+}
+main .potions:empty::before {
+  content: attr(data-empty);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+main .potions .progress {
+  width: 30%;
+  height: 50px;
+  border: 1px solid black;
+  outline: 1px solid gray;
+  position: absolute;
+  left: 35%;
+  top: calc(50% - 25px);
+  z-index: 400;
+  --progress: 0%;
+}
+main .potions .progress::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: var(--progress);
+  background: gray;
+}
+main .potions .progress::after {
+  content: attr(data-progress);
+  position: absolute;
+  inset: 0;
+  color: black;
+  text-shadow: 0 0 2px gray, 0 0 2px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+main .potions .potion {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem 2rem;
+  border-bottom: 1px solid gray;
+  gap: 1rem 1rem;
+}
+main .potions .potion .emphasized {
+  text-decoration: underline;
+}
+main .potions .potion .not_emphasized {
+  opacity: 0.5;
+}
+main .potions .potion header {
+  flex: 1 0 100%;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+main .potions .potion header strong {
+  font-size: 2rem;
+}
+main .potions .potion header span {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .potions .potion header span::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main .potions .potion header span.is_poison::before {
+  background-image: url('/images/poison.png');
+}
+main .potions .potion header span.is_potion::before {
+  background-image: url('/images/potion.png');
+}
+main .potions .potion div {
+  flex: 1 0 30%;
+  display: flex;
+  flex-direction: column;
+}
+main .potions .potion div.ingredients {
+  flex: 0 0 min-content;
+  white-space: nowrap;
+  flex: 0 0 220px;
+}
+main .potions .potion div.ingredients a {
+  order: -100;
+}
+main .potions .potion div.effects {
+  flex: 0 0 min-content;
+  justify-content: space-evenly;
+}
+main .potions .potion div.effects > * {
+  position: relative;
+  white-space: nowrap;
+}
+main .potions .potion div.effects > *.harmless {
+  color: lightgreen;
+}
+main .potions .potion div.effects > *.harmfull {
+  color: pink;
+}
+main .potions .potion div.details {
+  display: block;
+  line-height: 1.8;
+}
+main .potions .potion div .dropable {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  white-space: nowrap;
+  transition: 200ms;
+}
+main .potions .potion div .dropable a {
+  opacity: 0;
+  transition: 200ms;
+  font-size: 1.4rem;
+  color: pink;
+}
+main .potions .potion div .dropable a:hover {
+  color: red;
+}
+main .potions .potion div .dropable:hover a {
+  opacity: 1;
+}
+main .potions .potion div:last-child {
+  margin-left: 2rem;
+}
+.slider-target,.slider-target *{-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);box-sizing:border-box;touch-action:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.slider-target{position:relative}.slider-base,.slider-connects{height:100%;position:relative;width:100%;z-index:1}.slider-connects{overflow:hidden;z-index:0}.slider-connect,.slider-origin{height:100%;position:absolute;right:0;top:0;-ms-transform-origin:0 0;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform-style:preserve-3d;transform-style:flat;width:100%;will-change:transform;z-index:1}.slider-txt-dir-rtl.slider-horizontal .slider-origin{left:0;right:auto}.slider-vertical .slider-origin{top:-100%;width:0}.slider-horizontal .slider-origin{height:0}.slider-handle{-webkit-backface-visibility:hidden;backface-visibility:hidden;position:absolute}.slider-touch-area{height:100%;width:100%}.slider-state-tap .slider-connect,.slider-state-tap .slider-origin{transition:transform .3s}.slider-state-drag *{cursor:inherit!important}.slider-tooltip-drag .slider-tooltip,.slider-tooltip-focus .slider-tooltip{display:none!important}.slider-tooltip-drag .slider-active .slider-tooltip,.slider-tooltip-drag.slider-state-drag .slider-tooltip:not(.slider-tooltip-hidden),.slider-tooltip-focus.slider-focused .slider-tooltip:not(.slider-tooltip-hidden){display:block!important}.slider-horizontal{height:var(--slider-height,6px)}.slider-horizontal .slider-handle{height:var(--slider-handle-height,16px);right:calc(var(--slider-handle-width, 16px)/2*-1);top:calc((var(--slider-handle-height, 16px) - var(--slider-height, 6px))/2*-1 + -1px);width:var(--slider-handle-width,16px)}.slider-vertical{height:var(--slider-vertical-height,300px);width:var(--slider-height,6px)}.slider-vertical .slider-handle{bottom:calc(var(--slider-handle-width, 16px)/2*-1);height:var(--slider-handle-width,16px);right:calc((var(--slider-handle-height, 16px) - var(--slider-height, 6px))/2*-1 + -1px);width:var(--slider-handle-height,16px)}.slider-txt-dir-rtl.slider-horizontal .slider-handle{left:calc(var(--slider-handle-width, 16px)/2*-1);right:auto}.slider-base{background-color:var(--slider-bg,#d1d5db)}.slider-base,.slider-connects{border-radius:var(--slider-radius,9999px)}.slider-connect{background:var(--slider-connect-bg,#10b981);cursor:pointer}.slider-draggable{cursor:ew-resize}.slider-vertical .slider-draggable{cursor:ns-resize}.slider-handle{background:var(--slider-handle-bg,#fff);border:var(--slider-handle-border,0);border-radius:var(--slider-handle-radius,9999px);box-shadow:var(--slider-handle-shadow,.5px .5px 2px 1px rgba(0,0,0,.32));cursor:-webkit-grab;cursor:grab;height:var(--slider-handle-height,16px);width:var(--slider-handle-width,16px)}.slider-handle:focus{box-shadow:0 0 0 var(--slider-handle-ring-width,3px) var(--slider-handle-ring-color,rgba(16,185,129,.188)),var(--slider-handle-shadow,.5px .5px 2px 1px rgba(0,0,0,.32));outline:none}.slider-active{box-shadow:var(--slider-handle-shadow-active,.5px .5px 2px 1px rgba(0,0,0,.42));cursor:-webkit-grabbing;cursor:grabbing}[disabled] .slider-connect{background:var(--slider-connect-bg-disabled,#9ca3af)}[disabled] .slider-handle,[disabled].slider-handle,[disabled].slider-target{cursor:not-allowed}[disabled] .slider-tooltip{background:var(--slider-tooltip-bg-disabled,#9ca3af);border-color:var(--slider-tooltip-bg-disabled,#9ca3af)}.slider-tooltip{background:var(--slider-tooltip-bg,#10b981);border:1px solid var(--slider-tooltip-bg,#10b981);border-radius:var(--slider-tooltip-radius,5px);color:var(--slider-tooltip-color,#fff);display:block;font-size:var(--slider-tooltip-font-size,.875rem);font-weight:var(--slider-tooltip-font-weight,600);line-height:var(--slider-tooltip-line-height,1.25rem);min-width:var(--slider-tooltip-min-width,20px);padding:var(--slider-tooltip-py,2px) var(--slider-tooltip-px,6px);position:absolute;text-align:center;white-space:nowrap}.slider-horizontal .slider-tooltip-top{bottom:calc(var(--slider-handle-height, 16px) + var(--slider-tooltip-arrow-size, 5px) + var(--slider-tooltip-distance, 3px));left:50%;transform:translate(-50%)}.slider-horizontal .slider-tooltip-top:before{border:var(--slider-tooltip-arrow-size,5px) solid transparent;border-top-color:inherit;bottom:calc(var(--slider-tooltip-arrow-size, 5px)*-2);content:"";height:0;left:50%;position:absolute;transform:translate(-50%);width:0}.slider-horizontal .slider-tooltip-bottom{left:50%;top:calc(var(--slider-handle-height, 16px) + var(--slider-tooltip-arrow-size, 5px) + var(--slider-tooltip-distance, 3px));transform:translate(-50%)}.slider-horizontal .slider-tooltip-bottom:before{border:var(--slider-tooltip-arrow-size,5px) solid transparent;border-bottom-color:inherit;content:"";height:0;left:50%;position:absolute;top:calc(var(--slider-tooltip-arrow-size, 5px)*-2);transform:translate(-50%);width:0}.slider-vertical .slider-tooltip-left{right:calc(var(--slider-handle-height, 16px) + var(--slider-tooltip-arrow-size, 5px) + var(--slider-tooltip-distance, 3px));top:50%;transform:translateY(-50%)}.slider-vertical .slider-tooltip-left:before{border:var(--slider-tooltip-arrow-size,5px) solid transparent;border-left-color:inherit;content:"";height:0;position:absolute;right:calc(var(--slider-tooltip-arrow-size, 5px)*-2);top:50%;transform:translateY(-50%);width:0}.slider-vertical .slider-tooltip-right{left:calc(var(--slider-handle-height, 16px) + var(--slider-tooltip-arrow-size, 5px) + var(--slider-tooltip-distance, 3px));top:50%;transform:translateY(-50%)}.slider-vertical .slider-tooltip-right:before{border:var(--slider-tooltip-arrow-size,5px) solid transparent;border-right-color:inherit;content:"";height:0;left:calc(var(--slider-tooltip-arrow-size, 5px)*-2);position:absolute;top:50%;transform:translateY(-50%);width:0}.slider-horizontal .slider-origin>.slider-tooltip{left:auto;transform:translate(50%)}.slider-horizontal .slider-origin>.slider-tooltip-top{bottom:calc(var(--slider-tooltip-arrow-size, 5px) + (var(--slider-handle-height, 16px) - var(--slider-height, 6px))/2 + var(--slider-tooltip-distance, 3px) + 1px)}.slider-horizontal .slider-origin>.slider-tooltip-bottom{top:calc(var(--slider-tooltip-arrow-size, 5px) + (var(--slider-handle-height, 16px) - var(--slider-height, 6px))/2 + var(--slider-tooltip-distance, 3px) + var(--slider-height, 6px) - 1px)}.slider-vertical .slider-origin>.slider-tooltip{top:auto;transform:translateY(calc((var(--slider-tooltip-line-height, 1.25rem) - var(--slider-tooltip-py, 2px))*-1 + 1px))}.slider-vertical .slider-origin>.slider-tooltip-left{right:calc(var(--slider-tooltip-arrow-size, 5px) + var(--slider-height, 6px) + (var(--slider-handle-height, 16px) - var(--slider-height, 6px))/2 + var(--slider-tooltip-distance, 3px) - 1px)}.slider-vertical .slider-origin>.slider-tooltip-right{left:calc(var(--slider-tooltip-arrow-size, 5px) + var(--slider-height, 6px) + (var(--slider-handle-height, 16px) - var(--slider-height, 6px))/2 + var(--slider-tooltip-distance, 3px) - var(--slider-height, 6px) + 1px)}
