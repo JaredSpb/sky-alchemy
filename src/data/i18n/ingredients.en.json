@@ -1,0 +1,548 @@
+{
+    "abecean_longfin": {
+        "name": "Abecean Longfin"
+    },
+    "alocasia_fruit": {
+        "name": "Alocasia Fruit"
+    },
+    "ambrosia": {
+        "name": "Ambrosia"
+    },
+    "ancestor_moth_wing": {
+        "name": "Ancestor Moth Wing"
+    },
+    "angelfish": {
+        "name": "Angelfish"
+    },
+    "angler_larvae": {
+        "name": "Angler Larvae"
+    },
+    "ash_creep_cluster": {
+        "name": "Ash Creep Cluster"
+    },
+    "ash_hopper_jelly": {
+        "name": "Ash Hopper Jelly"
+    },
+    "ashen_grass_pod": {
+        "name": "Ashen Grass Pod"
+    },
+    "aster_bloom_core": {
+        "name": "Aster Bloom Core"
+    },
+    "bear_claws": {
+        "name": "Bear Claws"
+    },
+    "bee": {
+        "name": "Bee"
+    },
+    "beehive_husk": {
+        "name": "Beehive Husk"
+    },
+    "berits_ashes": {
+        "name": "Berit's Ashes"
+    },
+    "bittergreen_petals": {
+        "name": "Bittergreen Petals"
+    },
+    "bleeding_crown": {
+        "name": "Bleeding Crown"
+    },
+    "blind_watchers_eye": {
+        "name": "Blind Watcher's Eye"
+    },
+    "bliss_bug_thorax": {
+        "name": "Bliss Bug Thorax"
+    },
+    "blister_pod_cap": {
+        "name": "Blister Pod Cap"
+    },
+    "blisterwort": {
+        "name": "Blisterwort"
+    },
+    "bloodgrass": {
+        "name": "Bloodgrass"
+    },
+    "blue_butterfly_wing": {
+        "name": "Blue Butterfly Wing"
+    },
+    "blue_dartwing": {
+        "name": "Blue Dartwing"
+    },
+    "blue_mountain_flower": {
+        "name": "Blue Mountain Flower"
+    },
+    "boar_tusk": {
+        "name": "Boar Tusk"
+    },
+    "bog_beacon": {
+        "name": "Bog Beacon"
+    },
+    "bone_meal": {
+        "name": "Bone Meal"
+    },
+    "briar_heart": {
+        "name": "Briar Heart"
+    },
+    "bunglers_bane": {
+        "name": "Bungler's Bane"
+    },
+    "burnt_spriggan_wood": {
+        "name": "Burnt Spriggan Wood"
+    },
+    "butterfly_wing": {
+        "name": "Butterfly Wing"
+    },
+    "canis_root": {
+        "name": "Canis Root"
+    },
+    "charred_skeever_hide": {
+        "name": "Charred Skeever Hide"
+    },
+    "chaurus_eggs": {
+        "name": "Chaurus Eggs"
+    },
+    "chaurus_hunter_antennae": {
+        "name": "Chaurus Hunter Antennae"
+    },
+    "chickens_egg": {
+        "name": "Chicken's Egg"
+    },
+    "chokeberry": {
+        "name": "Chokeberry"
+    },
+    "chokeweed": {
+        "name": "Chokeweed"
+    },
+    "coda_flower": {
+        "name": "Coda Flower"
+    },
+    "comberry": {
+        "name": "Comberry"
+    },
+    "congealed_putrescence": {
+        "name": "Congealed Putrescence"
+    },
+    "corkbulb_root": {
+        "name": "Corkbulb Root"
+    },
+    "creep_cluster": {
+        "name": "Creep Cluster"
+    },
+    "crimson_nirnroot": {
+        "name": "Crimson Nirnroot"
+    },
+    "cyrodilic_spadetail": {
+        "name": "Cyrodilic Spadetail"
+    },
+    "daedra_heart": {
+        "name": "Daedra Heart"
+    },
+    "daedra_silk": {
+        "name": "Daedra Silk"
+    },
+    "daedra_venin": {
+        "name": "Daedra Venin"
+    },
+    "daedroth_teeth": {
+        "name": "Daedroth Teeth"
+    },
+    "deathbell": {
+        "name": "Deathbell"
+    },
+    "dragons_tongue": {
+        "name": "Dragon's Tongue"
+    },
+    "dreugh_wax": {
+        "name": "Dreugh Wax"
+    },
+    "dwarven_oil": {
+        "name": "Dwarven Oil"
+    },
+    "ectoplasm": {
+        "name": "Ectoplasm"
+    },
+    "elves_ear": {
+        "name": "Elves Ear"
+    },
+    "elytra_ichor": {
+        "name": "Elytra Ichor"
+    },
+    "emperor_parasol_moss": {
+        "name": "Emperor Parasol Moss"
+    },
+    "eye_of_sabre_cat": {
+        "name": "Eye of Sabre Cat"
+    },
+    "falmer_ear": {
+        "name": "Falmer Ear"
+    },
+    "felsaad_tern_feathers": {
+        "name": "Felsaad Tern Feathers"
+    },
+    "fire_petal": {
+        "name": "Fire Petal"
+    },
+    "fire_salts": {
+        "name": "Fire Salts"
+    },
+    "flame_stalk": {
+        "name": "Flame Stalk"
+    },
+    "fly_amanita": {
+        "name": "Fly Amanita"
+    },
+    "frost_mirriam": {
+        "name": "Frost Mirriam"
+    },
+    "frost_salts": {
+        "name": "Frost Salts"
+    },
+    "fungus_stalk": {
+        "name": "Fungus Stalk"
+    },
+    "garlic": {
+        "name": "Garlic"
+    },
+    "giant_lichen": {
+        "name": "Giant Lichen"
+    },
+    "giants_toe": {
+        "name": "Giant's Toe"
+    },
+    "glassfish": {
+        "name": "Glassfish"
+    },
+    "gleamblossom": {
+        "name": "Gleamblossom"
+    },
+    "glow_dust": {
+        "name": "Glow Dust"
+    },
+    "glowing_mushroom": {
+        "name": "Glowing Mushroom"
+    },
+    "gnarl_bark": {
+        "name": "Gnarl Bark"
+    },
+    "gold_kanet": {
+        "name": "Gold Kanet"
+    },
+    "goldfish": {
+        "name": "Goldfish"
+    },
+    "grass_pod": {
+        "name": "Grass Pod"
+    },
+    "green_butterfly_wing": {
+        "name": "Green Butterfly Wing"
+    },
+    "hacklelo_leaf": {
+        "name": "Hackle-Lo Leaf"
+    },
+    "hagraven_claw": {
+        "name": "Hagraven Claw"
+    },
+    "hagraven_feathers": {
+        "name": "Hagraven Feathers"
+    },
+    "hanging_moss": {
+        "name": "Hanging Moss"
+    },
+    "harrada": {
+        "name": "Harrada"
+    },
+    "hawk_beak": {
+        "name": "Hawk Beak"
+    },
+    "hawk_feathers": {
+        "name": "Hawk Feathers"
+    },
+    "hawks_egg": {
+        "name": "Hawk's Egg"
+    },
+    "heart_of_order": {
+        "name": "Heart of Order"
+    },
+    "histcarp": {
+        "name": "Histcarp"
+    },
+    "honeycomb": {
+        "name": "Honeycomb"
+    },
+    "human_flesh": {
+        "name": "Human Flesh"
+    },
+    "human_heart": {
+        "name": "Human Heart"
+    },
+    "hunger_tongue": {
+        "name": "Hunger Tongue"
+    },
+    "hydnum_azure_giant_spore": {
+        "name": "Hydnum Azure Giant Spore"
+    },
+    "hypha_facia": {
+        "name": "Hypha Facia"
+    },
+    "ice_wraith_teeth": {
+        "name": "Ice Wraith Teeth"
+    },
+    "imp_gall": {
+        "name": "Imp Gall"
+    },
+    "imp_stool": {
+        "name": "Imp Stool"
+    },
+    "jarrin_root": {
+        "name": "Jarrin Root"
+    },
+    "jazbay_grapes": {
+        "name": "Jazbay Grapes"
+    },
+    "juniper_berries": {
+        "name": "Juniper Berries"
+    },
+    "juvenile_mudcrab": {
+        "name": "Juvenile Mudcrab"
+    },
+    "kagouti_hide": {
+        "name": "Kagouti Hide"
+    },
+    "kresh_fiber": {
+        "name": "Kresh Fiber"
+    },
+    "large_antlers": {
+        "name": "Large Antlers"
+    },
+    "lavender": {
+        "name": "Lavender"
+    },
+    "lichor": {
+        "name": "Lichor"
+    },
+    "luminous_russula": {
+        "name": "Luminous Russula"
+    },
+    "luna_moth_wing": {
+        "name": "Luna Moth Wing"
+    },
+    "lyretail_anthias": {
+        "name": "Lyretail Anthias"
+    },
+    "marshmerrow": {
+        "name": "Marshmerrow"
+    },
+    "minotaur_horn": {
+        "name": "Minotaur Horn"
+    },
+    "moon_sugar": {
+        "name": "Moon Sugar"
+    },
+    "mora_tapinella": {
+        "name": "Mora Tapinella"
+    },
+    "mort_flesh": {
+        "name": "Mort Flesh"
+    },
+    "mudcrab_chitin": {
+        "name": "Mudcrab Chitin"
+    },
+    "namiras_rot": {
+        "name": "Namira's Rot"
+    },
+    "netch_jelly": {
+        "name": "Netch Jelly"
+    },
+    "nightshade": {
+        "name": "Nightshade"
+    },
+    "nirnroot": {
+        "name": "Nirnroot"
+    },
+    "nordic_barnacle": {
+        "name": "Nordic Barnacle"
+    },
+    "ogres_teeth": {
+        "name": "Ogre's Teeth"
+    },
+    "orange_dartwing": {
+        "name": "Orange Dartwing"
+    },
+    "pearl": {
+        "name": "Pearl"
+    },
+    "pearlfish": {
+        "name": "Pearlfish"
+    },
+    "pine_thrush_egg": {
+        "name": "Pine Thrush Egg"
+    },
+    "poison_bloom": {
+        "name": "Poison Bloom"
+    },
+    "powdered_mammoth_tusk": {
+        "name": "Powdered Mammoth Tusk"
+    },
+    "purple_butterfly_wing": {
+        "name": "Purple Butterfly Wing"
+    },
+    "purple_mountain_flower": {
+        "name": "Purple Mountain Flower"
+    },
+    "pygmy_sunfish": {
+        "name": "Pygmy Sunfish"
+    },
+    "red_kelp_gas_bladder": {
+        "name": "Red Kelp Gas Bladder"
+    },
+    "red_mountain_flower": {
+        "name": "Red Mountain Flower"
+    },
+    "redwort_flower": {
+        "name": "Redwort Flower"
+    },
+    "river_betty": {
+        "name": "River Betty"
+    },
+    "rock_warbler_egg": {
+        "name": "Rock Warbler Egg"
+    },
+    "roobrush": {
+        "name": "Roobrush"
+    },
+    "rot_scale": {
+        "name": "Rot Scale"
+    },
+    "sabre_cat_tooth": {
+        "name": "Sabre Cat Tooth"
+    },
+    "salmon_roe": {
+        "name": "Salmon Roe"
+    },
+    "salt_pile": {
+        "name": "Salt Pile"
+    },
+    "saltrice": {
+        "name": "Saltrice"
+    },
+    "scalon_fin": {
+        "name": "Scalon Fin"
+    },
+    "scaly_pholiota": {
+        "name": "Scaly Pholiota"
+    },
+    "scathecraw": {
+        "name": "Scathecraw"
+    },
+    "screaming_maw": {
+        "name": "Screaming Maw"
+    },
+    "scrib_jelly": {
+        "name": "Scrib Jelly"
+    },
+    "scrib_jerky": {
+        "name": "Scrib Jerky"
+    },
+    "silverside_perch": {
+        "name": "Silverside Perch"
+    },
+    "skeever_tail": {
+        "name": "Skeever Tail"
+    },
+    "slaughterfish_egg": {
+        "name": "Slaughterfish Egg"
+    },
+    "slaughterfish_scales": {
+        "name": "Slaughterfish Scales"
+    },
+    "sload_soap": {
+        "name": "Sload Soap"
+    },
+    "small_antlers": {
+        "name": "Small Antlers"
+    },
+    "small_pearl": {
+        "name": "Small Pearl"
+    },
+    "snowberries": {
+        "name": "Snowberries"
+    },
+    "spadefish": {
+        "name": "Spadefish"
+    },
+    "spawn_ash": {
+        "name": "Spawn Ash"
+    },
+    "spiddal_stick": {
+        "name": "Spiddal Stick"
+    },
+    "spider_egg": {
+        "name": "Spider Egg"
+    },
+    "spriggan_sap": {
+        "name": "Spriggan Sap"
+    },
+    "steelblue_entoloma": {
+        "name": "Steel-Blue Entoloma"
+    },
+    "stoneflower_petals": {
+        "name": "Stoneflower Petals"
+    },
+    "swamp_fungal_pod": {
+        "name": "Swamp Fungal Pod"
+    },
+    "taproot": {
+        "name": "Taproot"
+    },
+    "thistle_branch": {
+        "name": "Thistle Branch"
+    },
+    "thorn_hook": {
+        "name": "Thorn Hook"
+    },
+    "torchbug_thorax": {
+        "name": "Torchbug Thorax"
+    },
+    "trama_root": {
+        "name": "Trama Root"
+    },
+    "troll_fat": {
+        "name": "Troll Fat"
+    },
+    "tundra_cotton": {
+        "name": "Tundra Cotton"
+    },
+    "vampire_dust": {
+        "name": "Vampire Dust"
+    },
+    "void_essence": {
+        "name": "Void Essence"
+    },
+    "void_salts": {
+        "name": "Void Salts"
+    },
+    "watchers_eye": {
+        "name": "Watcher's Eye"
+    },
+    "wheat": {
+        "name": "Wheat"
+    },
+    "white_cap": {
+        "name": "White Cap"
+    },
+    "wisp_stalk_caps": {
+        "name": "Wisp Stalk Caps"
+    },
+    "wisp_wrappings": {
+        "name": "Wisp Wrappings"
+    },
+    "withering_moon": {
+        "name": "Withering Moon"
+    },
+    "worms_head_cap": {
+        "name": "Worm's Head Cap"
+    },
+    "yellow_mountain_flower": {
+        "name": "Yellow Mountain Flower"
+    }
+}

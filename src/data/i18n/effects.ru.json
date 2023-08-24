@@ -1,0 +1,242 @@
+{
+    "cure_disease": {
+        "name": "{И|и}сцелени{е|я} болезней",
+        "description": "Cures all diseases."
+    },
+    "cure_poison": {
+        "name": "{П|п}ротивояди{е|я}",
+        "description": "Stops poison's continuing effects."
+    },
+    "damage_health": {
+        "name": "{У|у}рон{|a} здоровью",
+        "description": "Causes <mag> points of poison damage."
+    },
+    "damage_magicka": {
+        "name": "{У|у}рон{|a} магии",
+        "description": "Drains the target's Magicka by <mag> points."
+    },
+    "damage_magicka_regen": {
+        "name": "{П|п}овреждени{е|я} регенерации магии",
+        "description": "Decrease the target's Magicka regeneration by <mag>% for <dur> seconds."
+    },
+    "damage_stamina": {
+        "name": "{У|у}рон{|a} запасу сил",
+        "description": "Drain the target's Stamina by <mag> points."
+    },
+    "damage_stamina_regen": {
+        "name": "{П|п}овреждени{е|я} регенерации запаса сил",
+        "description": "Decrease the target's Stamina regeneration by <mag>% for <dur> seconds."
+    },
+    "fear": {
+        "name": "{С|с}трах{|а}",
+        "description": "Creatures and people up to level <mag> flee from combat for <dur> seconds."
+    },
+    "fortify_alteration": {
+        "name": "{П|п}овышени{е|я} навыка: изменение",
+        "description": "Alteration spells last <mag>% longer for <dur> seconds."
+    },
+    "fortify_barter": {
+        "name": "{П|п}овышени{е|я} искусства торговли",
+        "description": "You haggle for <mag>% better prices for <dur> seconds."
+    },
+    "fortify_block": {
+        "name": "{П|п}овышени{е|я} навыка: блокирование",
+        "description": "Blocking absorbs <mag>% more damage for <dur> seconds."
+    },
+    "fortify_carry_weight": {
+        "name": "{П|п}овышени{е|я} переносимого веса",
+        "description": "Carrying capacity increases by <mag> for <dur> seconds."
+    },
+    "fortify_conjuration": {
+        "name": "{П|п}овышени{е|я} навыка: колдовство",
+        "description": "Conjurations spells last <mag>% longer for <dur> seconds."
+    },
+    "fortify_destruction": {
+        "name": "{П|п}овышени{е|я} навыка: разрушение",
+        "description": "Destruction spells are <mag>% stronger for <dur> seconds."
+    },
+    "fortify_enchanting": {
+        "name": "{П|п}овышени{е|я} навыка: зачарование",
+        "description": "For <dur> seconds, items are enchanted <mag>% stronger."
+    },
+    "fortify_health": {
+        "name": "{П|п}овышени{е|я} здоровья",
+        "description": "Health is increased by <mag> points for <dur> seconds."
+    },
+    "fortify_heavy_armor": {
+        "name": "{П|п}овышени{е|я} навыка: тяжёлая броня",
+        "description": "Increase Heavy Armor skill by <mag> points for <dur> seconds."
+    },
+    "fortify_illusion": {
+        "name": "{П|п}овышени{е|я} навыка: иллюзия",
+        "description": "Illusion spells are <mag>% stronger for <dur> seconds."
+    },
+    "fortify_light_armor": {
+        "name": "{П|п}овышени{е|я} навыка: лёгкая броня",
+        "description": "Increases Light Armor skill by <mag> points for <dur> seconds."
+    },
+    "fortify_lockpicking": {
+        "name": "{П|п}овышени{е|я} навыка: взлом",
+        "description": "Lockpicking is <mag>% easier for <dur> seconds."
+    },
+    "fortify_magicka": {
+        "name": "{П|п}овышени{е|я} магии",
+        "description": "Magicka is increased by <mag> points for <dur> seconds."
+    },
+    "fortify_marksman": {
+        "name": "{П|п}овышени{е|я} навыка: стрельба",
+        "description": "Bows do <mag>% more damage for <dur> seconds."
+    },
+    "fortify_onehanded": {
+        "name": "{П|п}овышени{е|я} навыка: одноручное оружие",
+        "description": "One-handed weapons do <mag>% more damage for <dur> seconds."
+    },
+    "fortify_persuasion": {
+        "name": "{П|п}овышени{е|я} убеждения",
+        "description": "+<mag> Speechcraft for <dur> seconds."
+    },
+    "fortify_pickpocket": {
+        "name": "{П|п}овышени{е|я} навыка: карманные кражи",
+        "description": "Pickpocketing is <mag>% easier for <dur> seconds."
+    },
+    "fortify_restoration": {
+        "name": "{П|п}овышени{е|я} навыка: восстановление",
+        "description": "Restoration spells are <mag>% stronger for <dur> seconds."
+    },
+    "fortify_smithing": {
+        "name": "{П|п}овышени{е|я} навыка: кузнечное дело",
+        "description": "For <dur> seconds, weapon and armor improving is <mag>% better."
+    },
+    "fortify_sneak": {
+        "name": "{П|п}овышени{е|я} навыка: скрытность",
+        "description": "You are <mag>% harder to detect for <dur> seconds."
+    },
+    "fortify_stamina": {
+        "name": "{П|п}овышени{е|я} запаса сил",
+        "description": "Stamina is increased by <mag> points for <dur> seconds."
+    },
+    "fortify_twohanded": {
+        "name": "{П|п}овышени{е|я} навыка: двуручное оружие",
+        "description": "Two-handed weapons do <mag>% more damage for <dur> seconds."
+    },
+    "frenzy": {
+        "name": "{Б|б}ешенств{о|a}",
+        "description": "Creatures and people up to level <mag> will attack anything nearby for <dur> seconds."
+    },
+    "invisibility": {
+        "name": "{Н|н}евидимост{ь|и}",
+        "description": "Invisibility for <dur> seconds."
+    },
+    "light": {
+        "name": "{С|с}вет{а}",
+        "description": "Emits a small light that lasts for <dur> seconds."
+    },
+    "lingering_damage_health": {
+        "name": "{З|з}атяжно{й|го} урон{|а} здоровью",
+        "description": "Causes <mag> points of poison damage for <dur> seconds."
+    },
+    "lingering_damage_magicka": {
+        "name": "{З|з}атяжно{й|го} урон{|а} магии",
+        "description": "Drains the target's Magicka by <mag> points per second for <dur> seconds."
+    },
+    "lingering_damage_stamina": {
+        "name": "{З|з}атяжно{й|го} урон{|а} запасу сил",
+        "description": "Drain the target's Stamina by <mag> points per second for <dur> seconds."
+    },
+    "night_eye": {
+        "name": "{Н|н}очно{й|го} глаз{|а}",
+        "description": "Improved night vision for <dur> seconds."
+    },
+    "paralysis": {
+        "name": "{П|п}аралич{|а}",
+        "description": "Target is paralyzed for <dur> seconds."
+    },
+    "ravage_health": {
+        "name": "{О|о}пустошени{е|я} здоровья",
+        "description": "Causes <mag> points of concentrated poison damage."
+    },
+    "ravage_magicka": {
+        "name": "{О|о}пустошени{е|я} магии",
+        "description": "Concentrated poison damages maximum magicka by <mag> points."
+    },
+    "ravage_stamina": {
+        "name": "{О|о}пустошени{е|я} запаса сил",
+        "description": "Concentrated poison damages maximum stamina by <mag> points."
+    },
+    "regenerate_health": {
+        "name": "{Р|р}егенераци{я|и} здоровья",
+        "description": "Health regenerates <mag>% faster for <dur> seconds."
+    },
+    "regenerate_magicka": {
+        "name": "{Р|р}егенераци{я|и} магии",
+        "description": "Magicka regenerates <mag>% faster for <dur> seconds."
+    },
+    "regenerate_stamina": {
+        "name": "{Р|р}егенераци{я|и} запаса сил",
+        "description": "Stamina regenerates <mag>% faster for <dur> seconds."
+    },
+    "resist_fire": {
+        "name": "{С|с}опротивлени{е|я} огню",
+        "description": "Resist <mag>% of fire damage for <dur> seconds."
+    },
+    "resist_frost": {
+        "name": "{С|с}опротивлени{е|я} холоду",
+        "description": "Resist <mag>% of frost damage for <dur> seconds."
+    },
+    "resist_magic": {
+        "name": "{С|с}опротивлени{е|я} магии",
+        "description": "Resist <mag>% of magic for <dur> seconds."
+    },
+    "resist_poison": {
+        "name": "{С|с}опротивлени{е|я} ядам",
+        "description": "Resist <mag>% of poison for <dur> seconds."
+    },
+    "resist_shock": {
+        "name": "{С|с}опротивлени{е|я} электричеству",
+        "description": "Resist <mag>% of shock damage for <dur> seconds."
+    },
+    "restore_health": {
+        "name": "{В|в}осстановлени{е|я} здоровья",
+        "description": "Restore <mag> points of Health."
+    },
+    "restore_magicka": {
+        "name": "{В|в}осстановлени{е|я} магии",
+        "description": "Restore <mag> points of Magicka."
+    },
+    "restore_stamina": {
+        "name": "{В|в}осстановлени{е|я} запаса сил",
+        "description": "Restore <mag> Stamina."
+    },
+    "slow": {
+        "name": "{З|з}амедлени{е|я}",
+        "description": "Target moves at 50% speed for <dur> seconds."
+    },
+    "spell_absorption": {
+        "name": "{П|п}оглощени{е|я} заклинаний",
+        "description": "Absorb <mag>% of the magicka from hostile spells for <dur> seconds."
+    },
+    "waterbreathing": {
+        "name": "{В|в}одно{е|ого} дыхание",
+        "description": "Can breathe underwater for <dur> seconds."
+    },
+    "weakness_to_fire": {
+        "name": "{У|у}язвимост{ь|и} к огню",
+        "description": "Target is <mag>% weaker to fire damage for <dur> seconds."
+    },
+    "weakness_to_frost": {
+        "name": "{У|у}язвимост{ь|и} к холоду",
+        "description": "Target is <mag>% weaker to frost damage for <dur> seconds."
+    },
+    "weakness_to_magic": {
+        "name": "{У|у}язвимост{ь|и} к магии",
+        "description": "Target is <mag>% weaker to magic for <dur> seconds."
+    },
+    "weakness_to_poison": {
+        "name": "{У|у}язвимост{ь|и} к яду",
+        "description": "Target is <mag>% weaker to poison for <dur> seconds."
+    },
+    "weakness_to_shock": {
+        "name": "{У|у}язвимост{ь|и} к электричеству",
+        "description": "Target is <mag>% weaker to shock damage for <dur> seconds."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "ingredients": "Ingredients",
+    "effects": "Effects",
+    "select_all": "+ Select All",
+    "unselect_all": "- Unselect All",
+    "filter": "Filter",
+    "poison": "Poison of",
+    "potion": "Potion of",
+    "no_potions": "No potions available with selected setup",
+    "filter_hint": "Activate filter by pressing any key\nSplit terms with punctuation marks, i.e.: \"bee|feath\"\nEnter toggles filtered elements\nEsc cancels filter",
+    "alchemy": "Alchemy",
+    "alchemy_fortify":"Alchemy Fortify",
+    "alchemy_perk": "Alchemy Perk",
+    "physician_perk": "Physician Perk",
+    "purity_perk": "Purity Perk",
+    "benefactor_perk": "Benefactor Perk",
+    "poisoner_perk": "Poisoner Perk",
+    "github_link": "Project on GitHub"
+}
