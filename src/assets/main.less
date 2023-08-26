@@ -451,7 +451,7 @@ aside{
 					order: 300;
 					opacity: 1;
 				}
-				&:hover{
+				&.regular:hover{
 
 					&.active{
 						color: salmon;
@@ -459,8 +459,78 @@ aside{
 					&:not(.active){
 						color: lightgreen;
 					}
-
 				}
+
+				&.special{
+
+					position: relative;
+					justify-content: center;
+					cursor: default;
+
+					> div{
+						position: absolute;
+						inset: -1px;
+						display: flex;
+						height: 100%;
+						border: 1px solid transparent;
+
+						> * {
+							flex: 1 0 0;
+							display: flex;
+							align-items: center;
+							padding: 0 1rem;
+							cursor: pointer;
+							font-size: 1.5rem;
+
+							&:last-child{
+								justify-content: flex-end;
+							}
+						}
+
+						&.activatable{
+							border-color: lightgreen;
+							span:first-child{
+								color: green;
+							};
+						}
+						&.neutralizable{
+							border-color: white;
+							span:first-child, span:last-child{
+								color: white;
+							};
+						}
+						&.inactivatable{
+							border-color: pink;
+							span:last-child{
+								color: red;
+							};
+						}
+					}
+
+					&.active{
+						color: lightgreen;
+
+						> div > :first-child{
+							pointer-events: none;
+						}
+					}
+					&.neutral{
+						color: white;
+
+						> div > :nth-child(2n){
+							pointer-events: none;
+						}
+					}
+					&.inactive{
+						color: pink;
+
+						> div > :last-child{
+							pointer-events: none;
+						}
+					}
+
+
+				}				
 			}
 
 			&.filtered{
@@ -504,6 +574,7 @@ aside{
 					border: 1px solid gray;
 					transition: 200ms;
 					flex: 1 0 0;
+					padding-right: 70px;
 
 					&:focus{
 						border: 1px solid white;

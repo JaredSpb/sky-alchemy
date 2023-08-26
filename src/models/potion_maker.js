@@ -497,6 +497,17 @@ export default {
 
 		let out = [];
 
+		let banned_effects = [];
+		let mandatory_effects = [];
+
+		for( let effect_name in this.effects ){
+			if( this.effects[ effect_name ].active === 1 )
+				mandatory_effects.push(effect_name);
+
+			else if( this.effects[ effect_name ].active === -1 )
+				banned_effects.push(effect_name);
+		}
+
 		POTIONS: for( let potion of this.potions ){
 
 			for( let ingredient of Object.keys(potion.ingredients) ){
@@ -504,15 +515,27 @@ export default {
 					continue POTIONS;
 			}
 
-			for( let effect of Object.keys(potion.effects) ){
-				if( !potion.effects[effect].active ){
+
+			let include_potion = mandatory_effects.length === 0;
+			for( let effect in potion.effects ){
+
+				// Is effect banned by user
+				if( banned_effects.includes(effect) )
 					continue POTIONS;
+
+				// Is there required effects?
+				if( !include_potion ){
+					if( mandatory_effects.includes(effect) ){
+						include_potion = true;
+					}
 				}
 			}
 
-			out.push( potion.digest() );
-			if( out.length == total )
-				return out;
+			if( include_potion ){
+				out.push( potion.digest() );
+				if( out.length == total )
+					return out;
+			}
 
 		}
 		

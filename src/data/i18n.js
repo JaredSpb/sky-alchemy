@@ -460,7 +460,7 @@ export default {
 				"description": "Absorb <mag>% of the magicka from hostile spells for <dur> seconds."
 			},
 			"waterbreathing": {
-				"name": "{В|в}одно{е|ого} дыхание",
+				"name": "{В|в}одно{е|го} дыхание",
 				"description": "Can breathe underwater for <dur> seconds."
 			},
 			"weakness_to_fire": {
@@ -489,8 +489,9 @@ export default {
 		"en": {
 			"ingredients": "Ingredients",
 			"effects": "Effects",
-			"select_all": "+ Select All",
-			"unselect_all": "- Unselect All",
+			"activate_all": "+ Activate all",
+			"neutralize_all": "o Neutralize all",
+			"inactivate_all": "- Inactivate all",
 			"filter": "Filter",
 			"poison": "Poison of",
 			"potion": "Potion of",
@@ -503,13 +504,17 @@ export default {
 			"purity_perk": "Purity Perk",
 			"benefactor_perk": "Benefactor Perk",
 			"poisoner_perk": "Poisoner Perk",
-			"github_link": "Project on GitHub"
+			"github_link": "Project on GitHub",
+			"make_mandatory": "Make this effect mandatory",
+			"make_neutral": "Make this effect neutral",
+			"make_forbidden": "Make this effect forbidden"
 		},
 		"ru": {
 			"ingredients": "Ингредиенты",
 			"effects": "Эффекты",
-			"select_all": "+ Выбрать всё",
-			"unselect_all": "- Снять выделение",
+			"activate_all": "+ Включить все",
+			"neutralize_all": "o Нетрализовать все",
+			"inactivate_all": "- Отключить все",
 			"filter": "Фильтровать",
 			"poison": "Яд",
 			"potion": "Зелье",
@@ -522,7 +527,10 @@ export default {
 			"purity_perk": "Чистота",
 			"benefactor_perk": "Провизор",
 			"poisoner_perk": "Отравитель",
-			"github_link": "Проект на GitHub"
+			"github_link": "Проект на GitHub",
+			"make_mandatory": "Сделать эффект обязательным",
+			"make_neutral": "Сделать эффект нейтральным",
+			"make_forbidden": "Убрать эффект"
 		}
 	},
 	"ingredients": {

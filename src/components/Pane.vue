@@ -41,11 +41,10 @@ function toggleAll( set, state, isa ){
 
 		let prev_state = set[key].active;
 
-		set[key].active = (
-			state 
-			? set[key].enabled
-			: state
-		);
+		if( state === true )
+			set[key].active = set[key].enabled;
+		else
+			set[key].active = state;
 
 		if( set[key].active != prev_state )
 			changelist[key] = set[key].active;
@@ -142,7 +141,8 @@ document.addEventListener('keydown', function( e ){
 					:isa="isa"
 					:alias="item.alias"
 					:name="name"
-					/>
+					:type="isa == 'effects' ? 'special' : 'regular'"
+				/>
 				
 			</nav>
 
@@ -162,8 +162,8 @@ document.addEventListener('keydown', function( e ){
 						<a class='hint' :data-hint="i18n.getTerm('iface', 'filter_hint')">?</a>
 					</div>					
 				</div>
-				<a @click="toggleAll(items, true, isa)">{{ i18n.getTerm('iface', 'select_all') }}</a>
-				<a @click="toggleAll(items, false, isa)">{{ i18n.getTerm('iface', 'unselect_all') }}</a>
+				<a @click="toggleAll(items, isa == 'effects' ? 0 : true, isa)">{{ i18n.getTerm('iface', isa == 'effects' ? 'neutralize_all' : 'activate_all') }}</a>
+				<a @click="toggleAll(items, isa == 'effects' ? -1 : false, isa)">{{ i18n.getTerm('iface', 'inactivate_all') }}</a>
 			</div>
 			
 		</div>

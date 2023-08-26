@@ -15,7 +15,7 @@ class UserOptions{
 			}
 		},
 		ingredients: [],
-		effects: [],
+		effects: {},
 		dlcs: [
 			"[quest]",
 			"Rare Curios Creation",
@@ -48,10 +48,19 @@ class UserOptions{
 
 	updateTogglableEntities( key, entities ){
 		for( let string in entities ){
-			if( entities[string] )
+
+			// For boolean entries
+			if( entities[string] === true )
 				this.removeString( key, string, false );
-			else
+			else if( entities[string] === false )
 				this.addString( key, string, false );
+
+			// For int-value based
+			else if( entities[string] === 0 )
+				delete(this.libs[key][string]);
+			else
+				this.libs[key][string] = entities[string];
+
 		}
 
 		localStorage.setItem( key, JSON.stringify(this.libs[key]) );

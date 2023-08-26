@@ -1,6 +1,6 @@
 # SkyAlchemy
 
-SkyAlchemy is an alchemy calculator for TES Skyrim. It includes ingredients from official DLCs aswell some of those from Creation Club and supports multilingual interface. 
+SkyAlchemy is an alchemy calculator for TES Skyrim. It includes ingredients from official DLCs and some from Creation Club add-ons. Supports multilingual interface. 
 
 It is realized as an SPA powered by Vue framework. 
 

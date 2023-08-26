@@ -216,7 +216,7 @@
         "description": "Absorb <mag>% of the magicka from hostile spells for <dur> seconds."
     },
     "waterbreathing": {
-        "name": "{В|в}одно{е|ого} дыхание",
+        "name": "{В|в}одно{е|го} дыхание",
         "description": "Can breathe underwater for <dur> seconds."
     },
     "weakness_to_fire": {

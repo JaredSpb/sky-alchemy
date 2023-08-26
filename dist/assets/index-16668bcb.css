@@ -911,14 +911,22 @@ body {
   display: flex;
   align-items: center;
   padding: 0 1rem;
+  gap: 1rem;
   border-bottom: 4px double gray;
   justify-content: space-between;
   height: var(--header-size);
   position: relative;
   z-index: 400;
 }
+#app > header > a:not(.class) {
+  height: 60%;
+}
+#app > header > a:not(.class) img {
+  height: 100%;
+}
 #app > header .logo {
   font-size: 40px;
+  margin-right: 2em;
   font-variant: small-caps;
   text-decoration: none;
   text-transform: uppercase;
@@ -938,8 +946,6 @@ body {
   opacity: 0.85;
 }
 #app > header .controls {
-  margin-left: auto;
-  margin-right: 10%;
   position: relative;
   --slider-handle-bg: black;
   --slider-handle-shadow: 0 0 0 2px white, 0 0 0 3px black;
@@ -969,7 +975,7 @@ body {
 #app > header .controls > div {
   display: none;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 100%;
   padding: 1rem;
   background: white;
@@ -1036,6 +1042,7 @@ body {
 #app > header .locale_switcher {
   display: flex;
   gap: 1.5rem;
+  margin-left: auto;
 }
 #app > header .locale_switcher > * {
   height: 30px;
@@ -1210,11 +1217,71 @@ aside .setup > nav a.highlighted {
   order: 300;
   opacity: 1;
 }
-aside .setup > nav a:hover.active {
+aside .setup > nav a.regular:hover.active {
   color: salmon;
 }
-aside .setup > nav a:hover:not(.active) {
+aside .setup > nav a.regular:hover:not(.active) {
   color: lightgreen;
+}
+aside .setup > nav a.special {
+  position: relative;
+  justify-content: center;
+  cursor: default;
+}
+aside .setup > nav a.special > div {
+  position: absolute;
+  inset: -1px;
+  display: flex;
+  height: 100%;
+  border: 1px solid transparent;
+}
+aside .setup > nav a.special > div > * {
+  flex: 1 0 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+aside .setup > nav a.special > div > *:last-child {
+  justify-content: flex-end;
+}
+aside .setup > nav a.special > div.activatable {
+  border-color: lightgreen;
+}
+aside .setup > nav a.special > div.activatable span:first-child {
+  color: green;
+}
+aside .setup > nav a.special > div.neutralizable {
+  border-color: white;
+}
+aside .setup > nav a.special > div.neutralizable span:first-child,
+aside .setup > nav a.special > div.neutralizable span:last-child {
+  color: white;
+}
+aside .setup > nav a.special > div.inactivatable {
+  border-color: pink;
+}
+aside .setup > nav a.special > div.inactivatable span:last-child {
+  color: red;
+}
+aside .setup > nav a.special.active {
+  color: lightgreen;
+}
+aside .setup > nav a.special.active > div > :first-child {
+  pointer-events: none;
+}
+aside .setup > nav a.special.neutral {
+  color: white;
+}
+aside .setup > nav a.special.neutral > div > :nth-child(2n) {
+  pointer-events: none;
+}
+aside .setup > nav a.special.inactive {
+  color: pink;
+}
+aside .setup > nav a.special.inactive > div > :last-child {
+  pointer-events: none;
 }
 aside .setup > nav.filtered a:not(.highlighted) {
   opacity: 0.15;
@@ -1252,6 +1319,7 @@ aside .setup .controls div input {
   border: 1px solid gray;
   transition: 200ms;
   flex: 1 0 0;
+  padding-right: 70px;
 }
 aside .setup .controls div input:focus {
   border: 1px solid white;

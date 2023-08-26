@@ -52,13 +52,13 @@ for( let entry in ingredients_list ){
 let ingredients = ref( ingredients_list );
 
 // Loading effects list with respect to banned items
-let banned_effects = userOptions.get('effects');
+let user_effects_options = userOptions.get('effects');
 for( let entry in effects_list ){
-	if( banned_effects.includes( entry ) ){
-		effects_list[ entry ].active = false;
+	if( user_effects_options[entry] ){
+		effects_list[ entry ].active = user_effects_options[entry];
 	} else{
-		effects_list[ entry ].active = dlcs_raw[ effects_list[ entry ].dlc ];
-		effects_list[ entry ].enabled = dlcs_raw[ effects_list[ entry ].dlc ];
+		effects_list[ entry ].active = 0;
+		effects_list[ entry ].enabled = dlcs_raw[ effects_list[ entry ].dlc ];		
 	}
 }
 let effects = ref( effects_list );
@@ -161,7 +161,7 @@ dispatcher.subscribe(
 			for( let item of Object.values(effects.value) ){
 				if( item.dlc == dlc ){
 					item.enabled = state;
-					item.active = state;
+					item.active = 0;
 				}
 			}
 		}

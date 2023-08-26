@@ -20,7 +20,7 @@ export default {
 		"duration": 0,
 		"fixed": "duration",
 		"no_value_magnifier": true,
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"cure_poison": {
@@ -38,7 +38,7 @@ export default {
 		"base_cost": 0.2,
 		"duration": 0,
 		"fixed": "duration",
-		"active": false,
+		"active": -1,
 		"enabled": false
 	},
 	"damage_health": {
@@ -79,7 +79,7 @@ export default {
 		"base_cost": 3,
 		"duration": 1,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"damage_magicka": {
@@ -109,7 +109,7 @@ export default {
 		"base_cost": 2.2,
 		"duration": 0,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"damage_magicka_regen": {
@@ -142,7 +142,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 5,
 		"fixed": "magnitude",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"damage_stamina": {
@@ -172,7 +172,7 @@ export default {
 		"base_cost": 1.8,
 		"duration": 0,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"damage_stamina_regen": {
@@ -197,7 +197,7 @@ export default {
 		"base_cost": 0.3,
 		"duration": 5,
 		"fixed": "magnitude",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fear": {
@@ -223,7 +223,7 @@ export default {
 		"base_cost": 5,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_alteration": {
@@ -242,7 +242,7 @@ export default {
 		"base_cost": 0.2,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_barter": {
@@ -258,7 +258,7 @@ export default {
 		"base_cost": 2,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_block": {
@@ -277,7 +277,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_carry_weight": {
@@ -304,7 +304,7 @@ export default {
 		"base_cost": 0.15,
 		"duration": 300,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_conjuration": {
@@ -327,7 +327,7 @@ export default {
 		"base_cost": 0.25,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_destruction": {
@@ -348,7 +348,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_enchanting": {
@@ -368,7 +368,7 @@ export default {
 		"base_cost": 0.6,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_health": {
@@ -393,7 +393,7 @@ export default {
 		"base_cost": 0.35,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_heavy_armor": {
@@ -413,7 +413,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_illusion": {
@@ -432,7 +432,7 @@ export default {
 		"base_cost": 0.4,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_light_armor": {
@@ -452,7 +452,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_lockpicking": {
@@ -470,7 +470,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_magicka": {
@@ -498,7 +498,7 @@ export default {
 		"base_cost": 0.3,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_marksman": {
@@ -515,7 +515,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_onehanded": {
@@ -535,7 +535,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_persuasion": {
@@ -547,7 +547,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 30,
 		"fixed": "N/A",
-		"active": false,
+		"active": -1,
 		"enabled": false
 	},
 	"fortify_pickpocket": {
@@ -564,7 +564,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_restoration": {
@@ -583,7 +583,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_smithing": {
@@ -601,7 +601,7 @@ export default {
 		"base_cost": 0.75,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_sneak": {
@@ -622,7 +622,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_stamina": {
@@ -643,7 +643,7 @@ export default {
 		"base_cost": 0.3,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"fortify_twohanded": {
@@ -661,7 +661,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"frenzy": {
@@ -684,7 +684,7 @@ export default {
 		"base_cost": 15,
 		"duration": 10,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"invisibility": {
@@ -712,7 +712,7 @@ export default {
 		"base_cost": 100,
 		"duration": 4,
 		"fixed": "magnitude",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"light": {
@@ -727,7 +727,7 @@ export default {
 		"base_cost": 1,
 		"duration": 1,
 		"fixed": "N/A",
-		"active": false,
+		"active": -1,
 		"enabled": false
 	},
 	"lingering_damage_health": {
@@ -751,7 +751,7 @@ export default {
 		"base_cost": 12,
 		"duration": 10,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"lingering_damage_magicka": {
@@ -771,7 +771,7 @@ export default {
 		"base_cost": 10,
 		"duration": 10,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"lingering_damage_stamina": {
@@ -793,7 +793,7 @@ export default {
 		"base_cost": 1.8,
 		"duration": 10,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"night_eye": {
@@ -809,7 +809,7 @@ export default {
 		"base_cost": 1,
 		"duration": 1,
 		"fixed": "N/A",
-		"active": false,
+		"active": -1,
 		"enabled": false
 	},
 	"paralysis": {
@@ -840,7 +840,7 @@ export default {
 		"base_cost": 500,
 		"duration": 1,
 		"fixed": "magnitude",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"ravage_health": {
@@ -863,7 +863,7 @@ export default {
 		"base_cost": 0.4,
 		"duration": 10,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"ravage_magicka": {
@@ -885,7 +885,7 @@ export default {
 		"base_cost": 1,
 		"duration": 10,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"ravage_stamina": {
@@ -907,7 +907,7 @@ export default {
 		"base_cost": 1.6,
 		"duration": 10,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"regenerate_health": {
@@ -937,7 +937,7 @@ export default {
 		"base_cost": 0.1,
 		"duration": 300,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"regenerate_magicka": {
@@ -962,7 +962,7 @@ export default {
 		"base_cost": 0.1,
 		"duration": 300,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"regenerate_stamina": {
@@ -985,7 +985,7 @@ export default {
 		"base_cost": 0.1,
 		"duration": 300,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"resist_fire": {
@@ -1012,7 +1012,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"resist_frost": {
@@ -1040,7 +1040,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"resist_magic": {
@@ -1066,7 +1066,7 @@ export default {
 		"base_cost": 1,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"resist_poison": {
@@ -1090,7 +1090,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"resist_shock": {
@@ -1112,7 +1112,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 60,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"restore_health": {
@@ -1144,7 +1144,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 0,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"restore_magicka": {
@@ -1184,7 +1184,7 @@ export default {
 		"base_cost": 0.6,
 		"duration": 0,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"restore_stamina": {
@@ -1224,7 +1224,7 @@ export default {
 		"base_cost": 0.6,
 		"duration": 0,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"slow": {
@@ -1250,7 +1250,7 @@ export default {
 		"base_cost": 1,
 		"duration": 5,
 		"fixed": "magnitude",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"spell_absorption": {
@@ -1268,7 +1268,7 @@ export default {
 		"base_cost": 1,
 		"duration": 1,
 		"fixed": "N/A",
-		"active": false,
+		"active": -1,
 		"enabled": false
 	},
 	"waterbreathing": {
@@ -1293,7 +1293,7 @@ export default {
 		"base_cost": 30,
 		"duration": 5,
 		"fixed": "magnitude",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"weakness_to_fire": {
@@ -1318,7 +1318,7 @@ export default {
 		"base_cost": 0.6,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"weakness_to_frost": {
@@ -1338,7 +1338,7 @@ export default {
 		"base_cost": 0.5,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"weakness_to_magic": {
@@ -1362,7 +1362,7 @@ export default {
 		"base_cost": 1,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"weakness_to_poison": {
@@ -1385,7 +1385,7 @@ export default {
 		"base_cost": 1,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	},
 	"weakness_to_shock": {
@@ -1405,7 +1405,7 @@ export default {
 		"base_cost": 0.7,
 		"duration": 30,
 		"fixed": "duration",
-		"active": true,
+		"active": 0,
 		"enabled": true
 	}
 }

@@ -7069,7 +7069,7 @@ const i18n_strings = {
         "description": "Absorb <mag>% of the magicka from hostile spells for <dur> seconds."
       },
       "waterbreathing": {
-        "name": "{В|в}одно{е|ого} дыхание",
+        "name": "{В|в}одно{е|го} дыхание",
         "description": "Can breathe underwater for <dur> seconds."
       },
       "weakness_to_fire": {
@@ -7098,8 +7098,9 @@ const i18n_strings = {
     "en": {
       "ingredients": "Ingredients",
       "effects": "Effects",
-      "select_all": "+ Select All",
-      "unselect_all": "- Unselect All",
+      "activate_all": "+ Activate all",
+      "neutralize_all": "o Neutralize all",
+      "inactivate_all": "- Inactivate all",
       "filter": "Filter",
       "poison": "Poison of",
       "potion": "Potion of",
@@ -7112,13 +7113,17 @@ const i18n_strings = {
       "purity_perk": "Purity Perk",
       "benefactor_perk": "Benefactor Perk",
       "poisoner_perk": "Poisoner Perk",
-      "github_link": "Project on GitHub"
+      "github_link": "Project on GitHub",
+      "make_mandatory": "Make this effect mandatory",
+      "make_neutral": "Make this effect neutral",
+      "make_forbidden": "Make this effect forbidden"
     },
     "ru": {
       "ingredients": "Ингредиенты",
       "effects": "Эффекты",
-      "select_all": "+ Выбрать всё",
-      "unselect_all": "- Снять выделение",
+      "activate_all": "+ Включить все",
+      "neutralize_all": "o Нетрализовать все",
+      "inactivate_all": "- Отключить все",
       "filter": "Фильтровать",
       "poison": "Яд",
       "potion": "Зелье",
@@ -7131,7 +7136,10 @@ const i18n_strings = {
       "purity_perk": "Чистота",
       "benefactor_perk": "Провизор",
       "poisoner_perk": "Отравитель",
-      "github_link": "Проект на GitHub"
+      "github_link": "Проект на GitHub",
+      "make_mandatory": "Сделать эффект обязательным",
+      "make_neutral": "Сделать эффект нейтральным",
+      "make_forbidden": "Убрать эффект"
     }
   },
   "ingredients": {
@@ -10742,7 +10750,7 @@ const effects_list = {
     "duration": 0,
     "fixed": "duration",
     "no_value_magnifier": true,
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "cure_poison": {
@@ -10760,7 +10768,7 @@ const effects_list = {
     "base_cost": 0.2,
     "duration": 0,
     "fixed": "duration",
-    "active": false,
+    "active": -1,
     "enabled": false
   },
   "damage_health": {
@@ -10801,7 +10809,7 @@ const effects_list = {
     "base_cost": 3,
     "duration": 1,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "damage_magicka": {
@@ -10831,7 +10839,7 @@ const effects_list = {
     "base_cost": 2.2,
     "duration": 0,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "damage_magicka_regen": {
@@ -10864,7 +10872,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 5,
     "fixed": "magnitude",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "damage_stamina": {
@@ -10894,7 +10902,7 @@ const effects_list = {
     "base_cost": 1.8,
     "duration": 0,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "damage_stamina_regen": {
@@ -10919,7 +10927,7 @@ const effects_list = {
     "base_cost": 0.3,
     "duration": 5,
     "fixed": "magnitude",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fear": {
@@ -10945,7 +10953,7 @@ const effects_list = {
     "base_cost": 5,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_alteration": {
@@ -10964,7 +10972,7 @@ const effects_list = {
     "base_cost": 0.2,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_barter": {
@@ -10980,7 +10988,7 @@ const effects_list = {
     "base_cost": 2,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_block": {
@@ -10999,7 +11007,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_carry_weight": {
@@ -11026,7 +11034,7 @@ const effects_list = {
     "base_cost": 0.15,
     "duration": 300,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_conjuration": {
@@ -11049,7 +11057,7 @@ const effects_list = {
     "base_cost": 0.25,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_destruction": {
@@ -11070,7 +11078,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_enchanting": {
@@ -11090,7 +11098,7 @@ const effects_list = {
     "base_cost": 0.6,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_health": {
@@ -11115,7 +11123,7 @@ const effects_list = {
     "base_cost": 0.35,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_heavy_armor": {
@@ -11135,7 +11143,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_illusion": {
@@ -11154,7 +11162,7 @@ const effects_list = {
     "base_cost": 0.4,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_light_armor": {
@@ -11174,7 +11182,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_lockpicking": {
@@ -11192,7 +11200,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_magicka": {
@@ -11220,7 +11228,7 @@ const effects_list = {
     "base_cost": 0.3,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_marksman": {
@@ -11237,7 +11245,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_onehanded": {
@@ -11257,7 +11265,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_persuasion": {
@@ -11269,7 +11277,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 30,
     "fixed": "N/A",
-    "active": false,
+    "active": -1,
     "enabled": false
   },
   "fortify_pickpocket": {
@@ -11286,7 +11294,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_restoration": {
@@ -11305,7 +11313,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_smithing": {
@@ -11323,7 +11331,7 @@ const effects_list = {
     "base_cost": 0.75,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_sneak": {
@@ -11344,7 +11352,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_stamina": {
@@ -11365,7 +11373,7 @@ const effects_list = {
     "base_cost": 0.3,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "fortify_twohanded": {
@@ -11383,7 +11391,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "frenzy": {
@@ -11406,7 +11414,7 @@ const effects_list = {
     "base_cost": 15,
     "duration": 10,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "invisibility": {
@@ -11434,7 +11442,7 @@ const effects_list = {
     "base_cost": 100,
     "duration": 4,
     "fixed": "magnitude",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "light": {
@@ -11449,7 +11457,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 1,
     "fixed": "N/A",
-    "active": false,
+    "active": -1,
     "enabled": false
   },
   "lingering_damage_health": {
@@ -11473,7 +11481,7 @@ const effects_list = {
     "base_cost": 12,
     "duration": 10,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "lingering_damage_magicka": {
@@ -11493,7 +11501,7 @@ const effects_list = {
     "base_cost": 10,
     "duration": 10,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "lingering_damage_stamina": {
@@ -11515,7 +11523,7 @@ const effects_list = {
     "base_cost": 1.8,
     "duration": 10,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "night_eye": {
@@ -11531,7 +11539,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 1,
     "fixed": "N/A",
-    "active": false,
+    "active": -1,
     "enabled": false
   },
   "paralysis": {
@@ -11562,7 +11570,7 @@ const effects_list = {
     "base_cost": 500,
     "duration": 1,
     "fixed": "magnitude",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "ravage_health": {
@@ -11585,7 +11593,7 @@ const effects_list = {
     "base_cost": 0.4,
     "duration": 10,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "ravage_magicka": {
@@ -11607,7 +11615,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 10,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "ravage_stamina": {
@@ -11629,7 +11637,7 @@ const effects_list = {
     "base_cost": 1.6,
     "duration": 10,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "regenerate_health": {
@@ -11659,7 +11667,7 @@ const effects_list = {
     "base_cost": 0.1,
     "duration": 300,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "regenerate_magicka": {
@@ -11684,7 +11692,7 @@ const effects_list = {
     "base_cost": 0.1,
     "duration": 300,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "regenerate_stamina": {
@@ -11707,7 +11715,7 @@ const effects_list = {
     "base_cost": 0.1,
     "duration": 300,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "resist_fire": {
@@ -11734,7 +11742,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "resist_frost": {
@@ -11762,7 +11770,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "resist_magic": {
@@ -11788,7 +11796,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "resist_poison": {
@@ -11812,7 +11820,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "resist_shock": {
@@ -11834,7 +11842,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 60,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "restore_health": {
@@ -11866,7 +11874,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 0,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "restore_magicka": {
@@ -11906,7 +11914,7 @@ const effects_list = {
     "base_cost": 0.6,
     "duration": 0,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "restore_stamina": {
@@ -11946,7 +11954,7 @@ const effects_list = {
     "base_cost": 0.6,
     "duration": 0,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "slow": {
@@ -11972,7 +11980,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 5,
     "fixed": "magnitude",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "spell_absorption": {
@@ -11990,7 +11998,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 1,
     "fixed": "N/A",
-    "active": false,
+    "active": -1,
     "enabled": false
   },
   "waterbreathing": {
@@ -12015,7 +12023,7 @@ const effects_list = {
     "base_cost": 30,
     "duration": 5,
     "fixed": "magnitude",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "weakness_to_fire": {
@@ -12040,7 +12048,7 @@ const effects_list = {
     "base_cost": 0.6,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "weakness_to_frost": {
@@ -12060,7 +12068,7 @@ const effects_list = {
     "base_cost": 0.5,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "weakness_to_magic": {
@@ -12084,7 +12092,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "weakness_to_poison": {
@@ -12107,7 +12115,7 @@ const effects_list = {
     "base_cost": 1,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   },
   "weakness_to_shock": {
@@ -12127,7 +12135,7 @@ const effects_list = {
     "base_cost": 0.7,
     "duration": 30,
     "fixed": "duration",
-    "active": true,
+    "active": 0,
     "enabled": true
   }
 };
@@ -12469,20 +12477,35 @@ const potion_maker = {
   },
   getHead: function(total) {
     let out = [];
+    let banned_effects = [];
+    let mandatory_effects = [];
+    for (let effect_name in this.effects) {
+      if (this.effects[effect_name].active === 1)
+        mandatory_effects.push(effect_name);
+      else if (this.effects[effect_name].active === -1)
+        banned_effects.push(effect_name);
+    }
     POTIONS:
       for (let potion of this.potions) {
         for (let ingredient of Object.keys(potion.ingredients)) {
           if (!potion.ingredients[ingredient].active)
             continue POTIONS;
         }
-        for (let effect of Object.keys(potion.effects)) {
-          if (!potion.effects[effect].active) {
+        let include_potion = mandatory_effects.length === 0;
+        for (let effect in potion.effects) {
+          if (banned_effects.includes(effect))
             continue POTIONS;
+          if (!include_potion) {
+            if (mandatory_effects.includes(effect)) {
+              include_potion = true;
+            }
           }
         }
-        out.push(potion.digest());
-        if (out.length == total)
-          return out;
+        if (include_potion) {
+          out.push(potion.digest());
+          if (out.length == total)
+            return out;
+        }
       }
     return out;
   }
@@ -12504,7 +12527,7 @@ class UserOptions {
         }
       },
       ingredients: [],
-      effects: [],
+      effects: {},
       dlcs: [
         "[quest]",
         "Rare Curios Creation",
@@ -12532,10 +12555,14 @@ class UserOptions {
   }
   updateTogglableEntities(key, entities) {
     for (let string in entities) {
-      if (entities[string])
+      if (entities[string] === true)
         this.removeString(key, string, false);
-      else
+      else if (entities[string] === false)
         this.addString(key, string, false);
+      else if (entities[string] === 0)
+        delete this.libs[key][string];
+      else
+        this.libs[key][string] = entities[string];
     }
     localStorage.setItem(key, JSON.stringify(this.libs[key]));
   }
@@ -12561,15 +12588,21 @@ class UserOptions {
   }
 }
 const userOptions = new UserOptions();
-function toggle(item, name, isa) {
+function toggle(item, name, isa, value) {
+  if (value === void 0)
+    value = item.active ? false : item.enabled;
   if (item.active)
-    item.active = false;
+    item.active = value;
   else
-    item.active = item.enabled;
+    item.active = value;
   let state_change = {};
-  state_change[name] = item.active;
+  state_change[name] = value;
   dispatcher.dispatch("toggled", { state: state_change, isa });
 }
+const _hoisted_1$5 = ["state"];
+const _hoisted_2$5 = ["title"];
+const _hoisted_3$4 = ["title"];
+const _hoisted_4$3 = ["title"];
 const _sfc_main$5 = {
   __name: "ToggleableEntry",
   props: {
@@ -12577,21 +12610,59 @@ const _sfc_main$5 = {
     alias: String,
     name: String,
     isa: String,
+    type: String,
     highlighted: {
       type: Boolean,
       default: false
     }
   },
   setup(__props) {
+    function emphasize(target, klass) {
+      target.parentNode.classList.add(klass);
+      target.addEventListener("mouseleave", (e) => target.parentNode.classList.remove(klass), { once: true });
+    }
     return (_ctx, _cache) => {
-      return openBlock(), createElementBlock("a", {
-        onClick: _cache[0] || (_cache[0] = ($event) => unref(toggle)(__props.item, __props.alias, __props.isa)),
-        class: normalizeClass([
-          __props.item.active ? "active" : "",
-          __props.item.enabled ? "enabled" : "",
-          __props.item.highlighted ? "highlighted" : ""
-        ])
-      }, toDisplayString(__props.name), 3);
+      return openBlock(), createElementBlock(Fragment, null, [
+        __props.type == "regular" ? (openBlock(), createElementBlock("a", {
+          key: 0,
+          onClick: _cache[0] || (_cache[0] = ($event) => unref(toggle)(__props.item, __props.alias, __props.isa)),
+          class: normalizeClass([
+            __props.item.active ? "active" : "",
+            __props.item.enabled ? "enabled" : "",
+            __props.item.highlighted ? "highlighted" : "",
+            "regular"
+          ])
+        }, toDisplayString(__props.name), 3)) : createCommentVNode("", true),
+        __props.type == "special" ? (openBlock(), createElementBlock("a", {
+          key: 1,
+          state: __props.item.active,
+          class: normalizeClass([
+            __props.item.active == 1 ? "active" : __props.item.active == -1 ? "inactive" : "neutral",
+            __props.item.enabled ? "enabled" : "",
+            __props.item.highlighted ? "highlighted" : "",
+            "special"
+          ])
+        }, [
+          createBaseVNode("div", null, [
+            createBaseVNode("span", {
+              title: _ctx.i18n.getTerm("iface", "make_mandatory"),
+              onClick: _cache[1] || (_cache[1] = ($event) => unref(toggle)(__props.item, __props.alias, __props.isa, 1)),
+              onMouseenter: _cache[2] || (_cache[2] = (e) => emphasize(e.target, "activatable"))
+            }, "+", 40, _hoisted_2$5),
+            createBaseVNode("span", {
+              title: _ctx.i18n.getTerm("iface", "make_neutral"),
+              onClick: _cache[3] || (_cache[3] = ($event) => unref(toggle)(__props.item, __props.alias, __props.isa, 0)),
+              onMouseenter: _cache[4] || (_cache[4] = (e) => emphasize(e.target, "neutralizable"))
+            }, null, 40, _hoisted_3$4),
+            createBaseVNode("span", {
+              title: _ctx.i18n.getTerm("iface", "make_forbidden"),
+              onClick: _cache[5] || (_cache[5] = ($event) => unref(toggle)(__props.item, __props.alias, __props.isa, -1)),
+              onMouseenter: _cache[6] || (_cache[6] = (e) => emphasize(e.target, "inactivatable"))
+            }, "-", 40, _hoisted_4$3)
+          ]),
+          createTextVNode(" " + toDisplayString(__props.name), 1)
+        ], 10, _hoisted_1$5)) : createCommentVNode("", true)
+      ], 64);
     };
   }
 };
@@ -12632,7 +12703,10 @@ const _sfc_main$4 = {
       let changelist = {};
       for (let key in set2) {
         let prev_state = set2[key].active;
-        set2[key].active = state ? set2[key].enabled : state;
+        if (state === true)
+          set2[key].active = set2[key].enabled;
+        else
+          set2[key].active = state;
         if (set2[key].active != prev_state)
           changelist[key] = set2[key].active;
       }
@@ -12699,8 +12773,9 @@ const _sfc_main$4 = {
               item,
               isa: __props.isa,
               alias: item.alias,
-              name
-            }, null, 8, ["item", "isa", "alias", "name"]);
+              name,
+              type: __props.isa == "effects" ? "special" : "regular"
+            }, null, 8, ["item", "isa", "alias", "name", "type"]);
           }), 256))
         ], 2),
         createBaseVNode("div", _hoisted_1$4, [
@@ -12725,11 +12800,11 @@ const _sfc_main$4 = {
             ])
           ]),
           createBaseVNode("a", {
-            onClick: _cache[3] || (_cache[3] = ($event) => toggleAll(__props.items, true, __props.isa))
-          }, toDisplayString(_ctx.i18n.getTerm("iface", "select_all")), 1),
+            onClick: _cache[3] || (_cache[3] = ($event) => toggleAll(__props.items, __props.isa == "effects" ? 0 : true, __props.isa))
+          }, toDisplayString(_ctx.i18n.getTerm("iface", __props.isa == "effects" ? "neutralize_all" : "activate_all")), 1),
           createBaseVNode("a", {
-            onClick: _cache[4] || (_cache[4] = ($event) => toggleAll(__props.items, false, __props.isa))
-          }, toDisplayString(_ctx.i18n.getTerm("iface", "unselect_all")), 1)
+            onClick: _cache[4] || (_cache[4] = ($event) => toggleAll(__props.items, __props.isa == "effects" ? -1 : false, __props.isa))
+          }, toDisplayString(_ctx.i18n.getTerm("iface", "inactivate_all")), 1)
         ])
       ]);
     };
@@ -12863,7 +12938,7 @@ const _sfc_main$2 = {
             }, [
               createTextVNode(toDisplayString(_ctx.i18n.getTerm("effects", effect, "name")) + " ", 1),
               createBaseVNode("a", {
-                onClick: ($event) => unref(toggle)(__props.potion.effects[effect], effect, "effects")
+                onClick: ($event) => unref(toggle)(__props.potion.effects[effect], effect, "effects", -1)
               }, "☓", 8, _hoisted_7$1)
             ], 42, _hoisted_6$1);
           }), 256))
@@ -12965,12 +13040,12 @@ const _sfc_main = {
       }
     }
     let ingredients = ref(ingredients_list);
-    let banned_effects = userOptions.get("effects");
+    let user_effects_options = userOptions.get("effects");
     for (let entry in effects_list) {
-      if (banned_effects.includes(entry)) {
-        effects_list[entry].active = false;
+      if (user_effects_options[entry]) {
+        effects_list[entry].active = user_effects_options[entry];
       } else {
-        effects_list[entry].active = dlcs_raw[effects_list[entry].dlc];
+        effects_list[entry].active = 0;
         effects_list[entry].enabled = dlcs_raw[effects_list[entry].dlc];
       }
     }
@@ -13042,7 +13117,7 @@ const _sfc_main = {
           for (let item of Object.values(effects.value)) {
             if (item.dlc == dlc) {
               item.enabled = state;
-              item.active = state;
+              item.active = 0;
             }
           }
         }
@@ -13251,4 +13326,4 @@ const app = createApp(_sfc_main);
 app.config.globalProperties.i18n = shallowReactive(i18n);
 i18n.backRef(app.config.globalProperties.i18n);
 app.mount("#app");
-//# sourceMappingURL=index-85b19fb2.js.map
+//# sourceMappingURL=index-c006c941.js.map

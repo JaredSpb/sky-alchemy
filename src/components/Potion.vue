@@ -70,7 +70,7 @@ function highlight( e, tied ){
 				:class="[ potion.eeffects[effect].poison ? 'harmfull' : 'harmless', 'dropable' ]"
 				>
 					{{ i18n.getTerm('effects', effect, 'name') }}
-					<a @click="toggle( potion.effects[effect], effect, 'effects' )">☓</a>
+					<a @click="toggle( potion.effects[effect], effect, 'effects', -1 )">☓</a>
 			</span>
 		</div>
 
